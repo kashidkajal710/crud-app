@@ -1,0 +1,25 @@
+<p>login works!</p>
+<div class="container w-50 shadow border mt-5">
+  <!-- <div class="alert alert-danger" role="alert" *ngIf="isNewUser">
+    Please register First
+  </div> -->
+  <!-- <div class="alert alert-success" role="alert" *ngIf="isNewUser">
+    Login Success
+  </div> -->
+  <form [formGroup]="loginForm" (ngSubmit)="login()">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" name="email" formControlName="email" />
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" name="pass" formControlName="password" />
+    </div>
+    <div class="d-grid gap-2">
+    <button type="submit" class="btn btn-primary">login</button>
+    <button type="button" class="btn btn-primary" routerLink="/signup"> singUp</button>
+    </div>
+  </form>
+</div>

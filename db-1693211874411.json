@@ -1,0 +1,48 @@
+{
+  "user": [
+    {
+      "FullName": "kajal kashid",
+      "email": "abc@123",
+      "password": "123",
+      "mobile": "8788391469",
+      "id": 1
+    },
+    {
+      "FullName": "supriya kashid",
+      "email": "asd@123",
+      "password": "123",
+      "mobile": "8767678860",
+      "id": 2
+    },
+    {
+      "FullName": "datta shinde",
+      "email": "abc@123",
+      "password": "123",
+      "mobile": "8788391469",
+      "id": 3
+    },
+    {
+      "FullName": "kajal kashid",
+      "email": "abc@123",
+      "password": "123",
+      "mobile": "8788391469",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "moblie",
+      "category": "electronics",
+      "price": "40000",
+      "stock": "45",
+      "id": 9
+    },
+    {
+      "name": "laptop",
+      "category": "electronics",
+      "price": "40000",
+      "stock": "45",
+      "id": 10
+    }
+  ]
+}
